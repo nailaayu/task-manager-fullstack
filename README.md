@@ -1,4 +1,4 @@
-# TASK MANAGER FULLSTACK
+# TASK MANAGER
 
 ## Bahasa Indonesia
 
@@ -16,7 +16,7 @@ Flutter, Dart, Provider State Management, Spring Boot
 
 ### Cara Menjalankan
 
-Jalankan backend terlebih dahulu dengan perintah `./mvnw.cmd spring-boot:run`, kemudian jalankan frontend dengan perintah `flutter pub get` dan `flutter run` pada terminal.
+Backend: `./mvnw.cmd spring-boot:run`, Frontend: `flutter pub get` lalu `flutter run`
 
 ---
 
@@ -36,4 +36,4 @@ Flutter, Dart, Provider State Management, Spring Boot
 
 ### How to Run
 
-Run the backend first using `./mvnw.cmd spring-boot:run`, then run the frontend using `flutter pub get` and `flutter run` in the terminal.
+Backend: `./mvnw.cmd spring-boot:run`, Frontend: `flutter pub get` then `flutter run`
