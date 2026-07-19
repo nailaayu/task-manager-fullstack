@@ -28,31 +28,3 @@ cd path\ke\task_manager_app
 flutter pub get
 flutter run
 ```
-
-## Catatan baseUrl
-
-File yang mengatur alamat backend:
-
-```dart
-lib/services/api_service.dart
-```
-
-Default:
-
-```dart
-static const String baseUrl = 'http://10.0.2.2:8080/api';
-```
-
-Gunakan ini jika menjalankan Flutter di Android Emulator.
-
-Jika menjalankan di Chrome/Desktop/iOS Simulator, ubah menjadi:
-
-```dart
-static const String baseUrl = 'http://localhost:8080/api';
-```
-
-Jika menjalankan di HP fisik, ubah `10.0.2.2` menjadi IP laptop pada WiFi yang sama, contoh:
-
-```dart
-static const String baseUrl = 'http://192.168.1.10:8080/api';
-```
