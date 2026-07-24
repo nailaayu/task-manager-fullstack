@@ -1,0 +1,13 @@
+frontend/lib/
+frontend/assets/
+frontend/pubspec.yaml
+frontend/pubspec.lock
+
+backend/src/
+backend/pom.xml
+backend/mvnw
+backend/mvnw.cmd
+backend/.mvn/
+
+.gitignore
+README.md
